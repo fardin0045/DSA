@@ -9,7 +9,18 @@ function isAlphabeticPalindrome(code) {
     }
     else{
         return 0
+
     }
 
 }
 console.log(isAlphabeticPalindrome('Ab1ba32'))
+
+
+//Digit reverse
+
+function digitReverse(num){
+    const reverse = num.toString().split("").reverse().join("");
+    return reverse;
+}
+
+digitReverse(1234)
